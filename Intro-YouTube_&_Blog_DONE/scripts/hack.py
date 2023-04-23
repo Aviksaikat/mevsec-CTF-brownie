@@ -29,14 +29,14 @@ def hack(netwrk=False):
         setup, _ = deploy()
         _, attacker = get_account()
     else:
-        RPC_URL, SETUP, PRIVATE_KEY, FLAG_ID = get_values()
+        # RPC_URL, SETUP, PRIVATE_KEY, FLAG_ID = get_values()
 
-        # RPC_URL, SETUP, PRIVATE_KEY, FLAG_ID = (
-        #     "http://ctf.mevsec.com:50445",
-        #     "0x876807312079af775c49c916856A2D65f904e612",
-        #     0xEDBC6D1A8360D0C02D4063CDD0A23B55C469C90D3CFBC2C88A015F9DD92D22B3,
-        #     "f25b4b38222c1cd5b578853b986b5c94e4cd5a23930dca11e8e446c6b0c0b71d",
-        # )
+        RPC_URL, SETUP, PRIVATE_KEY, FLAG_ID = (
+            "http://ctf.mevsec.com:50662",
+            "0x876807312079af775c49c916856A2D65f904e612",
+            0xEDBC6D1A8360D0C02D4063CDD0A23B55C469C90D3CFBC2C88A015F9DD92D22B3,
+            "e935b4c4545a1fb3cc6da0ef59a00f313d95e304c5ce1fe088ec52dcd9ff8c74",
+        )
 
         try:
             run(
