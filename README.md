@@ -56,7 +56,7 @@ Intro-YouTube_&_Blog_DONE/
 # Solution
 
 - Put the corresponding contracts in the `contracts` directory
-- Get the `RPC URL`, `Private Key`, and `instance ID` like this
+- Get the `RPC URL`, `Private Key`, and `instance ID` like this. Depending on the challenge the number changes from 0, 1 & so on. This is an example for the first challenge.
 
 ```sh
 curl '5.196.27.132:8080/create_challenge?challenge_number=0'
@@ -110,3 +110,7 @@ brownie run scripts/hack.py --network mevsec
 - Ganache documentation: https://www.trufflesuite.com/docs/ganache
 
 ### 🎉 Congratulations! Your Mevsec CTF Solution project is now set up with Brownie, ready for Ethereum smart contract development and solving the Mevsec CTF challenges. Happy coding! 🚀💡🔓🔍
+
+# Current Rankings
+
+![](media/ranks.png)
