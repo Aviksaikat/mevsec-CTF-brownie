@@ -1,12 +1,12 @@
 #!/usr/bin/python3
-from brownie import web3, VideoChallengeIntro, Setup, network
-from scripts.deploy import deploy
-from scripts.helpful_scripts import get_account
-from scripts.get_data import get_values
-from scripts.submit import submit
-from colorama import Fore
 from subprocess import run
 
+from brownie import Setup, VideoChallengeIntro, network, web3
+from colorama import Fore
+from scripts.deploy import deploy
+from scripts.get_data import get_values
+from scripts.helpful_scripts import get_account
+from scripts.submit import submit
 
 # * colours
 green = Fore.GREEN

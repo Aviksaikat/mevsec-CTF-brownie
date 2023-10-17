@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-import subprocess
 import json
+import subprocess
 from re import findall
 
 
